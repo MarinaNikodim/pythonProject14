@@ -12,7 +12,7 @@ def string_info(string):
 
 def is_contains(string, list_to_search):
     count_calls()
-    return string.lower() in [s.lower() for s in list_to_search]
+    return string.upper() in [s.upper() for s in list_to_search]
 
 
 print(string_info("AbraKadabRa"))
